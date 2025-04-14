@@ -4,7 +4,7 @@ CC = cc
 CFLAGS = -Wall -Wextra -Werror
 INCLUDES = -I./includes
 
-SRCS_DIR = srcs
+SRCS_DIR = src
 STACK_DIR = $(SRCS_DIR)/stack
 OPERATIONS_DIR = $(SRCS_DIR)/operations
 PARSING_DIR = $(SRCS_DIR)/parsing
