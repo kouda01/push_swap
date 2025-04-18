@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   push_swap.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yel-mako <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/04/14 10:05:48 by yel-mako          #+#    #+#             */
+/*   Updated: 2025/04/14 10:05:50 by yel-mako         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef PUSH_SWAP_H
 # define PUSH_SWAP_H
 
@@ -45,7 +57,8 @@ void				radix_sort(t_stack **stack_a, t_stack **stack_b);
 int					get_max_bits(t_stack *stack);
 
 /* Error handling */
-void				ft_error(t_stack **stack_a, t_stack **stack_b, char **split);
+void				ft_error(t_stack **stack_a, t_stack **stack_b,
+						char **split);
 int					check_duplicates(t_stack *stack);
 int					parse_args(int argc, char **argv, t_stack **stack_a);
 

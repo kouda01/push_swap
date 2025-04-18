@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   radix_sort.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: yel-mako <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/04/14 10:07:05 by yel-mako          #+#    #+#             */
+/*   Updated: 2025/04/14 10:07:06 by yel-mako         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../includes/push_swap.h"
 
 int	is_sorted(t_stack *stack)
@@ -38,11 +50,11 @@ int	get_max_bits(t_stack *stack)
 
 void	radix_sort(t_stack **stack_a, t_stack **stack_b)
 {
-	t_stack		*tmp;
-	int			i;
-	int			j;
-	int			size;
-	int			max_bits;
+	t_stack	*tmp;
+	int		i;
+	int		j;
+	int		size;
+	int		max_bits;
 
 	size = ft_stack_size(*stack_a);
 	max_bits = get_max_bits(*stack_a);
